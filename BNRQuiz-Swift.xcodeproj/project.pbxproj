@@ -10,6 +10,8 @@
 		DA67DC7119597FA800D3A0B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA67DC7019597FA800D3A0B9 /* AppDelegate.swift */; };
 		DA67DC7319597FA800D3A0B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA67DC7219597FA800D3A0B9 /* Images.xcassets */; };
 		DA67DC7F19597FA800D3A0B9 /* BNRQuiz_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA67DC7E19597FA800D3A0B9 /* BNRQuiz_SwiftTests.swift */; };
+		DA67DC8A19597FC800D3A0B9 /* BNRQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA67DC8819597FC800D3A0B9 /* BNRQuizViewController.swift */; };
+		DA67DC8B19597FC800D3A0B9 /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA67DC8919597FC800D3A0B9 /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,8 @@
 		DA67DC7819597FA800D3A0B9 /* BNRQuiz-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BNRQuiz-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA67DC7D19597FA800D3A0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA67DC7E19597FA800D3A0B9 /* BNRQuiz_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNRQuiz_SwiftTests.swift; sourceTree = "<group>"; };
+		DA67DC8819597FC800D3A0B9 /* BNRQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BNRQuizViewController.swift; path = "BNRQuiz-Swift/BNRQuizViewController.swift"; sourceTree = "<group>"; };
+		DA67DC8919597FC800D3A0B9 /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BNRQuizViewController.xib; path = "BNRQuiz-Swift/BNRQuizViewController.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		DA67DC6219597FA800D3A0B9 = {
 			isa = PBXGroup;
 			children = (
+				DA67DC8819597FC800D3A0B9 /* BNRQuizViewController.swift */,
+				DA67DC8919597FC800D3A0B9 /* BNRQuizViewController.xib */,
 				DA67DC6D19597FA800D3A0B9 /* BNRQuiz-Swift */,
 				DA67DC7B19597FA800D3A0B9 /* BNRQuiz-SwiftTests */,
 				DA67DC6C19597FA800D3A0B9 /* Products */,
@@ -182,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA67DC8B19597FC800D3A0B9 /* BNRQuizViewController.xib in Resources */,
 				DA67DC7319597FA800D3A0B9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA67DC8A19597FC800D3A0B9 /* BNRQuizViewController.swift in Sources */,
 				DA67DC7119597FA800D3A0B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
